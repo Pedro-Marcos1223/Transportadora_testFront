@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RastreioComponent } from './rastreio/rastreio.component';
-import { CriarEncomendaComponent } from './criar-encomenda/criar-encomenda.component';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
@@ -16,7 +15,6 @@ import { FormsModule } from '@angular/forms';
     MenuComponent,
     NavbarComponent,
     RastreioComponent,
-    CriarEncomendaComponent
   ],
   imports: [
     BrowserModule,
